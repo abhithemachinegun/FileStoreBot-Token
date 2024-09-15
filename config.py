@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "primeurl.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "c40a8633018ea94a4a3885ef4a01adece8701ff2")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "mdiskshortner.link")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "40e63ed6356e8450d8bbf5b34b4dea65babd555e")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","Howtoverifyme")
